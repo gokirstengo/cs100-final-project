@@ -16,10 +16,10 @@
  >   * Valgrind - Tool to check for memory leaks
  >   * CMake - Tool to compile our files
  > * What will be the input/output of your project?
- >   * The input will be the user's choices throughout the game's storyline
+ >   * The input will be the user's choices throughout the game's storyline.
  >   * The output will be changes in the character's stats (health, armor, damage, attack, etc.) as well as the continuation of the story.
  > * What are the two design patterns we will be using?
- >   * We are using the Composite and Abstract Factory design patterns
+ >   * We are using the Composite and Abstract Factory design patterns.
  >   * Composite Design Pattern:
  >      * The composite design pattern serves as an easy way to address the wide variety of objects in our project. A problem that we anticipate in our project is placing all the characters and items on a map since they all belong to different classes . This problem would benefit from the use from a tree structure as specified by the composite design pattern. For example, every object (characters, items) in the game would inherit from a common interface since they all appear on the map and need coordinates describing their position. In addition, the player class can have a vector/list of the common interface to represent the player’s inventory.
  >   * Abstract Factory Design Pattern
