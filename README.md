@@ -16,11 +16,15 @@
  >   * Valgrind - Tool to check for memory leaks
  >   * CMake - Tool to compile our files
  > * What will be the input/output of your project?
- > * What are the two design patterns you will be using? For each design pattern you must explain in 4-5 sentences:
- >   * Why you picked this pattern and what feature you will implement with it
- >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
- >   * Why the chosen design pattern will lead to a good solution to that problem
- > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
+ >   * The input will be the user's choices throughout the game's storyline
+ >   * The output will be changes in the character's stats (health, armor, damage, attack, etc.) as well as the continuation of the story.
+ > * What are the two design patterns we will be using?
+ >   * We are using the Composite and Abstract Factory design patterns
+ >   * Composite Design Pattern:
+ >      * The composite design pattern serves as an easy way to address the wide variety of objects in our project. A problem that we anticipate in our project is placing all the characters and items on a map since they all belong to different classes . This problem would benefit from the use from a tree structure as specified by the composite design pattern. For example, every object (characters, items) in the game would inherit from a common interface since they all appear on the map and need coordinates describing their position. In addition, the player class can have a vector/list of the common interface to represent the player’s inventory.
+ >   * Abstract Factory Design Pattern
+ >      * The problem we anticipate when implementing our project is seeing that there might be too many classes of specific characters and weapons overlapping on similar characteristics that can be first generalized before implementation. Since many objects in our project will share common features, we can make our code more organized by using abstract classes as described by the abstract factory pattern. The design pattern leads to a good solution to the problem of having character and weapon categories because it provides an interface of a general family where the more defined character types and weapons can then inherit from it. The features of specific characters can be easily implemented with more compressed code that is easy to look at when debugging as their common shared features will first be generalized in a main class.
+
 
  > ## Phase II
  > In addition to completing the "Class Diagram" section below, you will need to 
