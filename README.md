@@ -7,18 +7,18 @@
 
 ## Project Description
  > In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options (e.g. attack, run, access inventory, use a heal item, etc). 
- > * Why is this project important to us?
+ ## Why is this project important to us?
  >   * This project is interesting because the field I want to go into involves a lot of group work and hands on software building. This will very much help me gain some sort of experience for my future career goals. (Justin)
  >   * This project is important to me because I get to have more experience working with a team and also because I get to practice using different design patterns. I am also interested in seeing how the code behind video games works with our project idea. (Kirsten)
  >   * This project is important to me because it gives me more exposure into developing projects while being a part of a team. This also allows me to get some practice putting my classroom knowledge into some real applications. (Shaoyu)
- > * What languages/tools/technologies are we planning to use? (This list may change over the course of the project)
+ ## What languages/tools/technologies are we planning to use? (This list may change over the course of the project)
  >   * C++ - Programming language
  >   * Valgrind - Tool to check for memory leaks
  >   * CMake - Tool to compile our files
- > * What will be the input/output of your project?
+ ## What will be the input/output of your project?
  >   * The input will be the user's choices throughout the game's storyline.
  >   * The output will be changes in the character's stats (health, armor, damage, attack, etc.) as well as the continuation of the story.
- > * What are the two design patterns we will be using?
+ ## What are the two design patterns we will be using?
  >   * We are using the Composite and Abstract Factory design patterns.
  >   * Composite Design Pattern:
  >      * The composite design pattern serves as an easy way to address the wide variety of objects in our project. A problem that we anticipate in our project is placing all the characters and items on a map since they all belong to different classes . This problem would benefit from the use from a tree structure as specified by the composite design pattern. For example, every object (characters, items) in the game would inherit from a common interface since they all appear on the map and need coordinates describing their position. In addition, the player class can have a vector/list of the common interface to represent the player’s inventory.
