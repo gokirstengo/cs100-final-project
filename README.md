@@ -33,7 +33,8 @@ We are using the Strategy pattern to implement CharacterAttack and CharacterDefe
 
 
 ## Abstract Factory Pattern Class Diagram
-We are using the Abstract Factory pattern to represent items in the game. There are two kinds of items: Healing and Damage. Healing items will restore the Protagonist's health. Damage items will temporarily increase the attack of the Protagonist. 
+We are using the Abstract Factory pattern to represent items in the game. There are two kinds of items: Healing and Damage. Healing items will restore the Protagonist's health. Damage items will increase the attack of the Protagonist for a single battle. 
+
 ![Screen Shot 2021-05-07 at 8 47 44 PM](https://user-images.githubusercontent.com/36804838/117525179-dbe22f00-af75-11eb-9f84-96909d178dcc.png)
 
 
