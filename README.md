@@ -26,18 +26,22 @@ In this game users can choose among different characters to play with. Character
   * The problem we anticipate when implementing our project is seeing that there might be too many classes of specific items overlapping on similar characteristics that can be first generalized before implementation. Since many objects in our project will share common features, we can make our code more organized by using abstract classes as described by the abstract factory pattern. The design pattern leads to a good solution to the problem of having item categories because it provides an interface of a general family where the more defined item types can then inherit from it. The features of specific items can be easily implemented with more compressed code that is easy to look at when debugging as their common shared features will first be generalized in a main class.
 
 
-## Phase II
-In addition to completing the "Class Diagram" section below, you will need to 
-* Set up your GitHub project board as a Kanban board for the project. It should have columns that map roughly to 
-* Backlog, TODO, In progress, In testing, Done
-* You can change these or add more if you'd like, but we should be able to identify at least these.
-* There is no requirement for automation in the project board but feel free to explore those options.
-* Create an "Epic" (note) for each feature and each design pattern and assign them to the appropriate team member. Place these in the `Backlog` column
-* Complete your first *sprint planning* meeting to plan out the next 7 days of work.
-* Create smaller development tasks as issues and assign them to team members. Place these in the `TODO` column.
-* These cards should represent roughly 7 days worth of development time for your team, taking you until your first meeting with the TA
-## Class Diagram
+## Strategy Pattern Class Diagram
 Include a class diagram(s) for each design pattern and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
+
+![Screen Shot 2021-05-07 at 8 45 05 PM](https://user-images.githubusercontent.com/36804838/117525001-231bf000-af75-11eb-93ed-2beafe390db0.png)
+
+## Abstract Factory Pattern Class Diagram
+Include a class diagram(s) for each design pattern and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
+
+![Screen Shot 2021-05-07 at 8 47 44 PM](https://user-images.githubusercontent.com/36804838/117525179-dbe22f00-af75-11eb-9f84-96909d178dcc.png)
+
+
+## Character Class Diagram
+Include a class diagram(s) for each design pattern and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
+
+![Screen Shot 2021-05-07 at 9 00 14 PM](https://user-images.githubusercontent.com/36804838/117525463-45167200-af77-11eb-9042-75ab660edd83.png)
+
  
 ## Phase III
 You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
