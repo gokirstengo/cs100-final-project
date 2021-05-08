@@ -33,8 +33,7 @@ We are using the Strategy pattern to implement CharacterAttack and CharacterDefe
 
 
 ## Abstract Factory Pattern Class Diagram
-Include a class diagram(s) for each design pattern and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
-
+We are using the Abstract Factory pattern to represent items in the game. There are two kinds of items: Healing and Damage. Healing items will restore the Protagonist's health. Damage items will temporarily increase the attack of the Protagonist. 
 ![Screen Shot 2021-05-07 at 8 47 44 PM](https://user-images.githubusercontent.com/36804838/117525179-dbe22f00-af75-11eb-9f84-96909d178dcc.png)
 
 
