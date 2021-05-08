@@ -27,7 +27,7 @@ In this game users can choose among different characters to play with. Character
 
 
 ## Strategy Pattern Class Diagram
-We are using the Strategy pattern to implement CharacterAttack and CharacterDefense. MeleeAttack, MagicAttack, and RangedAttack all inherit from CharacterAttack. Shield and Armor inherit from Character Defense.
+We are using the Strategy pattern to implement CharacterAttack and CharacterDefense. MeleeAttack, MagicAttack, and RangedAttack all inherit from CharacterAttack. Shield and Armor inherit from CharacterDefense. Each attack and defense will have different strengths. 
 
 ![Screen Shot 2021-05-07 at 9 03 36 PM](https://user-images.githubusercontent.com/36804838/117526113-c53cd780-af77-11eb-97f1-92ebb82db5aa.png)
 
