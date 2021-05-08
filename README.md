@@ -27,7 +27,7 @@ In this game users can choose among different characters to play with. Character
 
 
 ## Strategy Pattern Class Diagram
-We are using the Strategy pattern to implement CharacterAttack and CharacterDefense. MeleeAttack, MagicAttack, and RangedAttack all inherit from CharacterAttack. Shield and Armor inherit from CharacterDefense. Each attack and defense will have different strengths. 
+We are using the Strategy pattern to implement CharacterAttack and CharacterDefense. MeleeAttack, MagicAttack, and RangedAttack all inherit from CharacterAttack. Shield and Armor inherit from CharacterDefense. Each attack and defense will have different strengths. The Character class will be the composition for both CharacterAttack and CharacterDefense.
 
 ![Screen Shot 2021-05-07 at 9 03 36 PM](https://user-images.githubusercontent.com/36804838/117526113-c53cd780-af77-11eb-97f1-92ebb82db5aa.png)
 
@@ -39,9 +39,9 @@ Include a class diagram(s) for each design pattern and a description of the diag
 
 
 ## Character Class Diagram
-Include a class diagram(s) for each design pattern and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
+The Character class has an attack, defense, and health. Orc, MageArcher, and Protagonist all inherit from the Character class. Orcs are enemies with MeleeAttack and MageArchers are enemies with MagicAttack and RangedAttack. The Protagonist can choose their attack and defense at the beginning of the game.
 
-![Screen Shot 2021-05-07 at 9 00 14 PM](https://user-images.githubusercontent.com/36804838/117525463-45167200-af77-11eb-9042-75ab660edd83.png)
+![Screen Shot 2021-05-07 at 9 18 10 PM](https://user-images.githubusercontent.com/36804838/117526401-cf5fd580-af79-11eb-8f45-e65ea17a859a.png)
 
  
 ## Phase III
