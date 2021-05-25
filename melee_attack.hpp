@@ -20,7 +20,7 @@ class MeleeAttack : public CharacterAttack {
 	      x = lightAttack();
 	      attackUsed = "Light Attack";
 	   }
-	   else if(distance >= 1 && distance <=5)
+	   else if(distance >= 0 && distance <=5)
 	   {
 	      x = heavyAttack();
 	      attackUsed = "Heavy Attack";
