@@ -33,15 +33,9 @@ We are using the Strategy pattern to implement CharacterAttack and CharacterDefe
 
 
 ## Abstract Factory Pattern Class Diagram
-We are using the Abstract Factory pattern to represent items in the game. There are two kinds of items: Healing and Damage. Healing items will restore the Protagonist's health. Damage items will increase the attack of the Protagonist for a single battle. 
+We are using the Abstract Factory pattern to represent characters in the game. We will have a CharacterFactory with Orc, Mage, Archer, etc inheriting from it. Each character type will have a different attack and defense.
 
 ![Screen Shot 2021-05-07 at 8 47 44 PM](https://user-images.githubusercontent.com/36804838/117525179-dbe22f00-af75-11eb-9f84-96909d178dcc.png)
-
-
-## Character Class Diagram
-The Character class has an attack, defense, and health. Orc, MageArcher, and Protagonist all inherit from the Character class. Orcs are enemies with MeleeAttack and MageArchers are enemies with MagicAttack and RangedAttack. The Protagonist can choose their attack and defense at the beginning of the game.
-
-![Screen Shot 2021-05-07 at 9 18 10 PM](https://user-images.githubusercontent.com/36804838/117526401-cf5fd580-af79-11eb-8f45-e65ea17a859a.png)
 
  
 ## Phase III
