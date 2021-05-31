@@ -35,6 +35,13 @@ TEST(MeleeTest, HP2Test) {
     EXPECT_EQ(r->get_health(), 115);
 }
 
+TEST(MeleeTest, HPLoss) {
+    CharacterDefense *r = new MeleeArmor();
+    
+    r->take_damage(15);
+    EXPECT_EQ(r->get_health(), 85);
+}
+
 TEST(RangedTest, LightTest) {
     CharacterDefense *m = new RangeArmor();
     
@@ -63,5 +70,11 @@ TEST(RangedTest, HP2Test) {
     EXPECT_EQ(m->get_health(), 115);
 }
 
+TEST(RnageTest, HPLoss) {
+    CharacterDefense *r = new RangeArmor();
+    
+    r->take_damage(15);
+    EXPECT_EQ(r->get_health(), 85);
+}
 
 #endif //__DEFENSE_TEST_HPP__
