@@ -21,13 +21,18 @@ class Character {
         }
     
         /* Functions */
-        virtual string get_attackClass(string name) = 0;
+        virtual string get_attackClass() = 0;
         
         virtual string get_characterType() = 0;
         
-        int get_health()
+        const int get_health()
         {
             return d->get_health();
+        }
+    
+        void take_damage(int d)
+        {
+            d->take_damage(d);
         }
         
         int regen_health(string r)
@@ -49,4 +54,5 @@ class Character {
 };
 
 #endif //__CHARACTER_HPP__
+
 
