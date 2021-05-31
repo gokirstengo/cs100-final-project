@@ -14,7 +14,15 @@ class CharacterDefense {
     
         virtual int armor(string) = 0;
         virtual int regen(string rest) = 0;
-        int get_health()
+        void take_damage(int damage) {
+            if (this->health < damage) {
+                this->health = 0;
+            }
+            else {
+                this->health = this->health - damage;
+            }
+        }
+        const int get_health()
         {
             return this->health;
         }
