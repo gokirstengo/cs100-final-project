@@ -8,8 +8,6 @@ class Character {
     protected:
         CharacterAttack * a;
         CharacterDefense * d;
-        string attackClass;
-        string characterType;
     
     public:
         /* Constructors */
@@ -21,7 +19,7 @@ class Character {
         }
     
         /* Functions */
-        virtual string get_attackClass(string name) = 0;
+        virtual string get_attackClass() = 0;
         
         virtual string get_characterType() = 0;
     
