@@ -36,9 +36,9 @@ class Character {
             return d->get_health();
         }
     
-        void take_damage(int d)
+        void take_damage(int damage)
         {
-            d->take_damage(d);
+            d->take_damage(damage);
         }
         
         int regen_health(string r)
@@ -53,7 +53,7 @@ class Character {
     
         string attackUsed()
         {
-            return a->attack_used()
+            return a->attack_used();
         }
     
     
