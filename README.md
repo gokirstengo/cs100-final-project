@@ -61,5 +61,7 @@ Screenshots of the input/output after running your application
 ## Installation/Usage
 Instructions on installing and running your application
 ## Testing
-We are testing our project with Google Test. We have a test.cpp file that will run our test cases.
+We are testing our project with Google Test. We have a test.cpp file that will run our test cases. Here is an example of successful test cases. We tested every class that we wrote.
+![Screen Shot 2021-06-01 at 7 09 13 AM](https://user-images.githubusercontent.com/36804838/120338133-c926f580-c2a8-11eb-858f-5a5dcfb7f190.png)
+
  
