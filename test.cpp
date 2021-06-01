@@ -3,7 +3,8 @@
 //#include "melee_test.hpp"
 //#include "defense_test.hpp"
 //#include "melee_char_test.hpp"
-#include "ranged_char_test.hpp"
+//#include "ranged_char_test.hpp"
+#include "shield_test.hpp"
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
