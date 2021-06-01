@@ -63,7 +63,6 @@ int main() {
 
     
     int picker = rand() % 1;
-    cout << picker << endl;
     CharacterFactory *cf1 = new RangedFactory();
     Character * enemy1;
     
