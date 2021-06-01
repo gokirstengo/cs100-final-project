@@ -8,35 +8,35 @@
 #include "magic_shield.hpp"
 #include "melee_shield.hpp"
 
-TEST(MeleeTest, WoodTest) {
+TEST(MeleeShieldTest, WoodTest) {
     CharacterDefense *r = new MeleeShield();
     
     EXPECT_EQ(r->armor("woodShield"), 25);
     EXPECT_EQ(r->get_health(), 125);
 }
 
-TEST(MeleeTest, MetalTest) {
+TEST(MeleeShieldTest, MetalTest) {
     CharacterDefense *r = new MeleeShield();
     
     EXPECT_EQ(r->armor("metalShield"), 75);
     EXPECT_EQ(r->get_health(), 175);
 }
 
-TEST(MeleeTest, HP1Test) {
+TEST(MeleeShieldTest, HP1Test) {
     CharacterDefense *r = new MeleeShield();
     
     EXPECT_EQ(r->regen("one"), 5);
     EXPECT_EQ(r->get_health(), 105);
 }
 
-TEST(MeleeTest, HP2Test) {
+TEST(MeleeShieldTest, HP2Test) {
     CharacterDefense *r = new MeleeShield();
     
     EXPECT_EQ(r->regen("two"), 15);
     EXPECT_EQ(r->get_health(), 115);
 }
 
-TEST(MeleeTest, HPLoss) {
+TEST(MeleeShieldTest, HPLoss) {
     CharacterDefense *r = new MeleeShield();
     
     r->take_damage(15);
