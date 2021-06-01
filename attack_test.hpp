@@ -25,7 +25,7 @@ TEST(RangedTest, NoneTest) {
     CharacterAttack *r = new RangedAttack();
     
     EXPECT_EQ(r->attack(51), 0);
-    EXPECT_EQ(r->attack_used(), "None");
+    EXPECT_EQ(r->attack_used(), "Not in range");
 }
 
 TEST(MagicTest, ShortTest) {
@@ -53,7 +53,7 @@ TEST(MagicTest, NoneTest) {
     CharacterAttack *m = new MagicAttack();
     
     EXPECT_EQ(m->attack(52), 0);
-    EXPECT_EQ(m->attack_used(), "None");
+    EXPECT_EQ(m->attack_used(), "Not in range");
 }
 
 
