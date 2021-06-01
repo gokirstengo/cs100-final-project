@@ -8,21 +8,21 @@
 #include "ranged_attack.hpp"
 #include "melee_attack.hpp"
 
-TEST(MeleeTest, LightTest) {
+TEST(MeleeAttackTest, LightTest) {
     CharacterAttack *r = new MeleeAttack();
     
     EXPECT_EQ(r->attack(6), 45);
     EXPECT_EQ(r->attack_used(), "Light Attack");
 }
 
-TEST(MeleeTest, HeavyTest) {
+TEST(MeleeAttackTest, HeavyTest) {
     CharacterAttack *r = new MeleeAttack();
     
     EXPECT_EQ(r->attack(1), 68);
     EXPECT_EQ(r->attack_used(), "Heavy Attack");
 }
 
-TEST(MeleeTest, NoneTest) {
+TEST(MeleeAttackTest, NoneTest) {
     CharacterAttack *r = new MeleeAttack();
     
     EXPECT_EQ(r->attack(11), 0);
