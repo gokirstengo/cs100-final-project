@@ -29,7 +29,7 @@ class RangedAttack : public CharacterAttack{
             }
             else
             {
-                attackUsed = "None";
+                attackUsed = "Not in range";
             }
             
             return x;
