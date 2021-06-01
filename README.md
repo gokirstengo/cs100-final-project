@@ -40,7 +40,8 @@ We are using the Abstract Factory pattern to represent characters in the game. W
 
  
 ## Screenshots
-Screenshots of the input/output after running your application
+![image](https://user-images.githubusercontent.com/59675025/120368328-c89d5780-c2c6-11eb-8d2c-2ae30940c714.png)
+![image](https://user-images.githubusercontent.com/59675025/120368506-00a49a80-c2c7-11eb-9f90-2c64d6d94db9.png)
 ## Installation/Usage
 1. Fork this repository and use git clone --recursive to download the repository on your computer. 
 2. Use Terminal to open the folder containing the project.
@@ -51,7 +52,5 @@ We are testing our project with Google Test. We have a test.cpp file that will r
 
 ![image](https://user-images.githubusercontent.com/59675025/120356266-009d9e00-c2b9-11eb-8faf-1228f610e13c.png)
 
-![image](https://user-images.githubusercontent.com/59675025/120368328-c89d5780-c2c6-11eb-8d2c-2ae30940c714.png)
-![image](https://user-images.githubusercontent.com/59675025/120368506-00a49a80-c2c7-11eb-9f90-2c64d6d94db9.png)
 
 
