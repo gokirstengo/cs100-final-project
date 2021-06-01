@@ -16,7 +16,7 @@ class MeleeShield : public CharacterDefense {
 	   int x = 0;
 
 	   if (armor_type == "woodShield") {
-		x = woodArmor();
+		x = woodShield();
 		health += 25;
 	   }
 	   else if (armor_type == "metalShield") {
