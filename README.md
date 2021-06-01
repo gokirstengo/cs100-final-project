@@ -33,7 +33,7 @@ We are using the Strategy pattern to implement CharacterAttack and CharacterDefe
 
 
 ## Abstract Factory Pattern Class Diagram
-We are using the Abstract Factory pattern to represent characters in the game. We will have a CharacterFactory with OrcFactory, MageFactory, ArcherFactory, etc inheriting from it. Each character type will have a different attack and defense.
+We are using the Abstract Factory pattern to represent characters in the game. We will have a CharacterFactory with MeleeFactory, RangedFactory, MagicFactory, etc inheriting from it. Each character type will have a predetermined attack and defense.
 
 ![Screen Shot 2021-05-07 at 8 47 44 PM](https://user-images.githubusercontent.com/36804838/117525179-dbe22f00-af75-11eb-9f84-96909d178dcc.png)
 
@@ -58,5 +58,5 @@ Screenshots of the input/output after running your application
 ## Installation/Usage
 Instructions on installing and running your application
 ## Testing
-How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+We are testing our project with Google Test. We have a test.cpp file that will run our test cases.
  
