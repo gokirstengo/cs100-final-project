@@ -36,7 +36,6 @@ We are using the Strategy pattern to implement CharacterAttack and CharacterDefe
 ## Abstract Factory Pattern Class Diagram
 We are using the Abstract Factory pattern to represent characters in the game. We will have a CharacterFactory with MeleeFactory, RangedFactory, MagicFactory, etc inheriting from it. Each character type will have a predetermined attack and defense.
 
-![Screen Shot 2021-06-01 at 6 29 07 AM](https://user-images.githubusercontent.com/36804838/120331776-fa042c00-c2a2-11eb-822e-965002a56b20.png)
 ![Screen Shot 2021-06-01 at 6 29 29 AM](https://user-images.githubusercontent.com/36804838/120331785-fcff1c80-c2a2-11eb-8909-c6af22e4274f.png)
 
  
