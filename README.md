@@ -45,7 +45,7 @@ Screenshots of the input/output after running your application
 ## Installation/Usage
 1. Fork this repository and use git clone --recursive to download the repository on your computer. 
 2. Use Terminal to open the folder containing the project.
-3. Enter in cmake3 ., then enter make, and finally enter ./main
+3. Enter in cmake3 . (include the space and the period), then enter make, and finally enter ./main
 4. Enjoy the game!
 ## Testing
 We are testing our project with Google Test. We have a test.cpp file that will run our test cases. Here is an example of successful test cases that we wrote for MagicFactory. We tested every class that we wrote.
