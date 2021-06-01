@@ -29,13 +29,16 @@ In this game users can choose among different characters to play with. Character
 ## Strategy Pattern Class Diagram
 We are using the Strategy pattern to implement CharacterAttack and CharacterDefense. MeleeAttack, MagicAttack, and RangedAttack all inherit from CharacterAttack. Shield and Armor inherit from CharacterDefense. Each attack and defense will have different strengths. The Character class will be the composition for both CharacterAttack and CharacterDefense.
 
-![image](https://user-images.githubusercontent.com/59675025/120291978-b98fb880-c278-11eb-92a0-0eda5483f0b4.png)
+![Screen Shot 2021-06-01 at 6 21 40 AM](https://user-images.githubusercontent.com/36804838/120331713-ea84e300-c2a2-11eb-952e-14ed82d72cfd.png)
+
 
 
 ## Abstract Factory Pattern Class Diagram
 We are using the Abstract Factory pattern to represent characters in the game. We will have a CharacterFactory with MeleeFactory, RangedFactory, MagicFactory, etc inheriting from it. Each character type will have a predetermined attack and defense.
 
-![image](https://user-images.githubusercontent.com/59675025/120291774-877e5680-c278-11eb-89ff-18fc94b16494.png)
+![Screen Shot 2021-06-01 at 6 29 07 AM](https://user-images.githubusercontent.com/36804838/120331776-fa042c00-c2a2-11eb-822e-965002a56b20.png)
+![Screen Shot 2021-06-01 at 6 29 29 AM](https://user-images.githubusercontent.com/36804838/120331785-fcff1c80-c2a2-11eb-8909-c6af22e4274f.png)
+
 
  
 ## Phase III
