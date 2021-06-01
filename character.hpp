@@ -1,5 +1,8 @@
 #ifndef __CHARACTER_HPP__
 #define __CHARACTER_HPP__
+
+#include "character_attack.hpp"
+#include "character_defense.hpp"
 #include <string>
 
 using namespace std;
