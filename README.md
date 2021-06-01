@@ -50,6 +50,5 @@ Screenshots of the input/output after running your application
 ## Testing
 We are testing our project with Google Test. We have a test.cpp file that will run our test cases. Here is an example of successful test cases that we wrote for MagicFactory. We tested every class that we wrote.
 
-![Screen Shot 2021-06-01 at 7 09 13 AM](https://user-images.githubusercontent.com/36804838/120338133-c926f580-c2a8-11eb-858f-5a5dcfb7f190.png)
+![image](https://user-images.githubusercontent.com/59675025/120356266-009d9e00-c2b9-11eb-8faf-1228f610e13c.png)
 
- 
