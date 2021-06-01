@@ -51,6 +51,7 @@ We are using the Abstract Factory pattern to represent characters in the game. W
 We are testing our project with Google Test. We have a test.cpp file that will run our test cases. Here is an example of successful test cases that we wrote for MagicFactory. We tested every class that we wrote.
 
 ![image](https://user-images.githubusercontent.com/59675025/120356266-009d9e00-c2b9-11eb-8faf-1228f610e13c.png)
+![image](https://user-images.githubusercontent.com/59675025/120369223-d2738a80-c2c7-11eb-979b-8d36e9fb2ff7.png)
 
 
 
